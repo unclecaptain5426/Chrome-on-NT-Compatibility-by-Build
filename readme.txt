@@ -6,3 +6,4 @@ Chrome 49.0.2623.112 - is the last unofficial version to work on Windows XP SP1 
 Chrome 50 is startable on Windows XP with kernelxp.dll wrappers unofficially, but the webpage does not function correctly (as tested on XP SP1).
 
 Make sure you have 7-Zip, CFF Explorer, and winhttp.dll installed.
+Make sure you use --no-sandbox and --ignore-certificate-errors to get it to fully work.
