@@ -1,5 +1,5 @@
 Chrome 6.0.408 Dev / 5.0.375.127 Stable - last unofficial version for Windows 2000 RC2 Builds - ????
-Chrome 30.0.1599.1xx - last unofficial version for vanilla Windows 2000 with imm32.dll from Windows 2000 Extended Kernel.
+Chrome 30.0.1599.101 - last unofficial version for vanilla Windows 2000 with imm32.dll from Windows 2000 Extended Kernel.
 Chrome 31-32 is startable on Windows 2000 unofficially, but it does not load pages properly, and --no-sandbox used triggers an 0x80000003 breakpoint.
 Chrome 32.0.1700.107 - last unofficial version for Windows Whistler Late Beta 1 Build 2419 through Windows .NET Server build 3590 with imm32.dll from Windows 2000 Extended Kernel.
 Chrome 33-49 is startable on Windows Whistler build 2419 through Windows .NET Server Build 3590 unofficially, but it either triggers a crash or hang after seconds.
