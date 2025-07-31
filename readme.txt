@@ -4,5 +4,5 @@ Chrome 33-49 is startable on vanilla Windows 2000 & Windows Whistler build 2419 
 Chrome 49.0.2623.112 (and 34.0.1847.137 is the last for no SSE2, ofc) - is the last unofficial version to work on Windows XP SP1 Beta Build 2600.1050 and Windows .NET Server Build 3604.
 Chrome 50 is startable on Windows XP with kernelxp.dll wrappers unofficially, but the webpage does not function correctly (as tested on XP SP1).
 
-Make sure you have 7-Zip, CFF Explorer, and winhttp.dll installed.
+Make sure you have 7-Zip, CFF Explorer, and winhttp.dll (especially on prior to 2000 SP3/XP SP1) installed.
 Make sure you use --no-sandbox and --ignore-certificate-errors to get it to fully work.
