@@ -7,3 +7,7 @@ Chrome 50 is startable on Windows XP with kernelxp.dll wrappers unofficially, bu
 Chrome 51.0.26?? Dev / Chrome 50.0.2664.102 - is the last unofficial version to fully run on Windows Vista without Extended Kernel and Windows 2000 with Extended Kernel.
 Make sure you have 7-Zip, CFF Explorer, and winhttp.dll (especially on prior to 2000 SP3/XP SP1) installed.
 Make sure you use --no-sandbox and --ignore-certificate-errors to get it to fully work.
+
+Chrome 23-32 situtation for Windows 2000 without Extended Kernel / Windows XP RTM
+For Chrome versions 23-28, you must have the imm32.dll and msftedit.dll from Windows 2000 Extended Kernel, or the address bar will not work.
+For Chrome versions 29-32, you must have the imm32.dll from Windows 2000 Extended Kernel, or Chrome will not launch.
