@@ -8,7 +8,6 @@ Chrome 51.0.26?? Dev / Chrome 50.0.2664.102 - is the last unofficial version to 
 Make sure you have 7-Zip, CFF Explorer, and winhttp.dll (especially on prior to 2000 SP3/XP SP1) installed.
 Make sure you use --no-sandbox and --ignore-certificate-errors to get it to fully work.
 
-
 == Chrome 23-32 situtation for Windows 2000 without Extended Kernel / Windows XP RTM ==
 For Chrome versions 23-28, you must have the imm32.dll and msftedit.dll from Windows 2000 Extended Kernel, or the address bar will not work.
 For Chrome versions 29-32, you must have the imm32.dll from Windows 2000 Extended Kernel, or Chrome will not launch.
@@ -16,4 +15,7 @@ For Chrome versions 29-32, you must have the imm32.dll from Windows 2000 Extende
 
 == Why chrome_elf.dll does not like Windows XP RTM/2000 SP4 ==
 
-Because starting at Chrome 33.0.1712.2 Dev, Chrome starts to lose functionally for Windows 2000 SP4 without Extended Kernel / Windows XP RTM without One-Core API (unofficially while using wrappers and additional DLLs to the app) due to chrome_elf.dll being introduced, and so, because later versions (like Chrome 33.0.1712.2 Dev - Chrome 49.0.2623.112) require at least Microsoft Windows XP SP1 (with just using kernelxp.dll wrappers unofficially) or newer
+Because starting at Chrome 33.0.1712.2 Dev, Chrome starts to lose functionally for Windows 2000 SP4 without Extended Kernel / Windows XP RTM without One-Core API (unofficially while using wrappers and additional DLLs to the app) due to chrome_elf.dll being introduced, and so, because later versions (like Chrome 33.0.1712.2 Dev - Chrome 49.0.2623.112) require at least Microsoft Windows XP SP1 (with just using kernelxp.dll wrappers unofficially) or newer.
+
+Note: winhttp.dll must be inserted to system32 or the chrome folder for Windows versions before Windows 2000 SP3 and Windows XP SP1 in order for Chrome to work.
+winhttp.dll must be from at least Windows XP SP2/Windows 2000 SP4 UR1.
