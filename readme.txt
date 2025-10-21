@@ -1,6 +1,6 @@
 Chrome 6.0.408 Dev / 5.0.375.127 Stable - last unofficial version for Windows 2000 Beta 3 Build 1964 - Windows Whistler Beta 1 Build 2296
-Chrome 17.0.963.26 Dev / Chrome 16.0.912.41 Beta / Chrome 15? / 14.0.835.202 Stable - last unofficial version for Windows Whistler Beta 1 Build 2410 & 2416
-Chrome 33.0.1707.0 Dev / 32.0.1700.107 Stable - last unofficial version for vanilla Windows 2000 and Windows Whistler Late Beta 1 Build 2419 through Windows .NET Server build 3590 with imm32.dll from Windows 2000 Extended Kernel.
+Chrome 33.0.1707.0 Dev / 32.0.1700.107 Stable - last unofficial version for vanilla Windows 2000 and Windows Whistler Late Beta 1 Build 2410 through Windows .NET Server build 3590 with imm32.dll from Windows 2000 Extended Kernel.
+For an example, Chrome 33.0.1707.0 is usable on Windows Whistler build 2410, but the bug found is that the "Google Chrome has encountered a problem and needs to close. We are sorry for the incovenience." error reporting window shows up as soon as it atarts. So, either keep the error reporting window, or crash Google Chrome.
 Since chrome_elf.dll was added on Chrome 33.0.1712.2 Dev, Chrome 33.0.1750.xxx-49.0.2623.xxx is unofficially possible on vanilla Windows 2000 & Windows Whistler build 2419 through Windows .NET Server Build 3590 unofficially, but it either triggers a crash or hang after the timeout (up to 60 seconds).
 Chrome 49.0.2623.112 (and 34.0.1847.137 is the last for no SSE2, ofc) - is the last unofficial version to work on Windows XP SP1 Beta Build 2600.1050 and Windows .NET Server Build 3604.
 Chrome 50 is startable on Windows XP with kernelxp.dll wrappers unofficially, but with frequent crashes.
