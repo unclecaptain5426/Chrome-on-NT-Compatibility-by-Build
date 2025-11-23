@@ -46,6 +46,8 @@ winhttp.dll must be from at least Windows Server 2003 RTM/Windows XP SP2/Windows
 
 Bugs
 
+DISCLAIMER
+This is an unofficial compatibility project. It is NOT associated, affiliated, or endorsed by Google or Microsoft.
 Google Chrome 6 - 32 is not known to work on Windows 2000 Beta 3 Build 1964 - Windows Whistler Beta 1 Build 2296, due to enforced ADVAPI32/NTDLL functions after 5.0.375.127.
 
 Google Chrome 33 - 49 is not known to work very well on Windows Whistler Beta 1 Build 2410 - Windows Whistler Pre-RC 1 Build 2475 when using kernelxp.dll wrappers by BWC (because it starts but freezes within seconds), but when using roytam1's kernelxp.dll wrappers and attempted to replace GetNativeSystemInfo with something else on kernelxp.dll, it triggers an c0000094 exception. On the other hand, when using Chrome 33 - 49 on Windows Whistler RC 1 Build 2481 - Windows Whistler RC 1 Build 2509, downloading executable files leads to Chrome crashing (because the NTDLL.DLL from XP SP1 does not work on Windows XP builds prior to RC 2 build 2517).
