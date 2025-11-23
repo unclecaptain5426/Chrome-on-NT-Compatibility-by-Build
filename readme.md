@@ -53,5 +53,7 @@ Google Chrome 33 - 49 is not known to work very well on Windows Whistler Beta 1 
 Screenshots
 
 Notes
-*Make sure you have 7-Zip & CFF Explorer installed.
-*If you are on a non-XP SP2 system... make sure you use --no-sandbox command line.
+
+Make sure you have 7-Zip & CFF Explorer installed.
+
+If you are on a non-XP SP2 system... make sure you use --no-sandbox command line.
