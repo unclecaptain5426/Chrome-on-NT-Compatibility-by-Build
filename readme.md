@@ -61,7 +61,9 @@ If you are on a non-XP SP2 system... make sure you use --no-sandbox command line
 
 DISCLAIMER
 
-This guide is an unofficial, community-made compatibility guide. It is NOT affiliated with, endorsed, or supported by Google or Microsoft. All product names, trademarks, and copyrights belong to their respective owners. This repository does not contain any proprietary Google binaries. It only documents compatibility behavior on legacy Windows systems and does not distribute any proprietary software.
+This guide is an unofficial, community-made compatibility guide. It is NOT affiliated with, endorsed, or supported by Google or Microsoft. All product names, trademarks, and copyrights belong to their respective owners. This repository does not contain any proprietary Google binaries. It only documents compatibility behavior on legacy Windows systems.
+
+All binaries must be obtained by the user from official sources only. This guide does not provide or link to any downloads.
 
 WORD OF CAUTION
 
