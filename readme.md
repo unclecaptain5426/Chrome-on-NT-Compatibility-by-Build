@@ -62,3 +62,7 @@ If you are on a non-XP SP2 system... make sure you use --no-sandbox command line
 DISCLAIMER
 
 This guide is an unofficial, community-made compatibility guide. It is NOT affiliated with, endorsed, or supported by Google or Microsoft. All product names, trademarks, and copyrights belong to their respective owners. This repository does not contain any proprietary Google binaries. It only documents compatibility behavior on legacy Windows systems and does not distribute any proprietary software.
+
+WORD OF CAUTION
+
+Please do not use an older version of Windows for Google Chrome as an excuse for an daily driver. It should be for testing purposes only.
