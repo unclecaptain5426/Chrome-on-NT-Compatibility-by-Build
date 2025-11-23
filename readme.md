@@ -1,3 +1,5 @@
+COMPATIBILITY
+
 Chrome 5.0.375.127 Stable - last unofficial version for Windows 2000 Beta 3 Build 1964 - Windows Whistler Beta 1 Build 2296
 
 Chrome 33.0.1707.0 Dev / 32.0.1700.107 Stable - last unofficial version for Windows 2000 SP4 without Extended Kernel by using:
@@ -20,7 +22,7 @@ Chrome 50 on Windows XP/2003 without One-Core API is not impossible but it can b
 
 Chrome 51.0.26?? Dev / Chrome 50.0.2664.102 - is the last unofficial version to fully run on Windows Vista without Extended Kernel and Windows 2000 with Extended Kernel.
 
-Frequently Asked Questions
+FREQUENTLY ASKED QUESTIONS
 
 1) Why Chrome 12.0.730+ Dev hardcoded GetNativeSystemInfo?
 
@@ -44,13 +46,14 @@ Because starting at Chrome 33.0.1712.2 Dev, Chrome starts to lose functionally f
 Note: winhttp.dll must be inserted to system32 or the chrome folder for Windows versions before Windows 2000 SP3 and Windows XP SP1 in order for Chrome to work.
 winhttp.dll must be from at least Windows Server 2003 RTM/Windows XP SP2/Windows 2000 SP4 UR1.
 
-Bugs
-
-DISCLAIMER
-This is an unofficial compatibility project. It is NOT associated, affiliated, or endorsed by Google or Microsoft.
+BUGS
 Google Chrome 6 - 32 is not known to work on Windows 2000 Beta 3 Build 1964 - Windows Whistler Beta 1 Build 2296, due to enforced ADVAPI32/NTDLL functions after 5.0.375.127.
 
 Google Chrome 33 - 49 is not known to work very well on Windows Whistler Beta 1 Build 2410 - Windows Whistler Pre-RC 1 Build 2475 when using kernelxp.dll wrappers by BWC (because it starts but freezes within seconds), but when using roytam1's kernelxp.dll wrappers and attempted to replace GetNativeSystemInfo with something else on kernelxp.dll, it triggers an c0000094 exception. On the other hand, when using Chrome 33 - 49 on Windows Whistler RC 1 Build 2481 - Windows Whistler RC 1 Build 2509, downloading executable files leads to Chrome crashing (because the NTDLL.DLL from XP SP1 does not work on Windows XP builds prior to RC 2 build 2517).
+
+DISCLAIMER
+This is an unofficial compatibility project. It is NOT associated, affiliated, or endorsed by Google or Microsoft.
+
 
 Screenshots
 
