@@ -60,4 +60,5 @@ Make sure you have 7-Zip & CFF Explorer installed.
 If you are on a non-XP SP2 system... make sure you use --no-sandbox command line.
 
 DISCLAIMER
+
 This project is an unofficial, community-made compatibility guide. It is NOT affiliated with, endorsed, or supported by Google or Microsoft. All product names, trademarks, and copyrights belong to their respective owners. This repository does not contain any proprietary Google binaries. It only documents compatibility behavior on legacy Windows systems.
