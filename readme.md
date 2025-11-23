@@ -67,4 +67,4 @@ All binaries must be obtained by the user from official sources only. This guide
 
 WORD OF CAUTION
 
-Please do not use an older version of Windows, neither an older version of Google Chrome as a daily driver. It must be for testing purposes only.
+Please do not use an older version of Google Chrome as a daily driver. It must be for testing purposes only.
