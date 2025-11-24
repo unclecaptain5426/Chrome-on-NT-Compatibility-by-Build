@@ -46,6 +46,9 @@ Because starting at Chrome 33.0.1712.2 Dev, Chrome starts to lose functionally f
 Note: winhttp.dll must be inserted to system32 or the chrome folder for Windows versions before Windows 2000 SP3 and Windows XP SP1 in order for Chrome to work.
 winhttp.dll must be from at least Windows Server 2003 RTM/Windows XP SP2/Windows 2000 SP4 UR1.
 
+5) Why wrappers needed on Chrome versions after 0.2.149.30 for Windows 2000?
+
+
 BUGS
 Google Chrome 6 - 32 is not known to work on Windows 2000 Beta 3 Build 1964 - Windows Whistler Beta 1 Build 2296, due to enforced ADVAPI32/NTDLL functions after 5.0.375.127.
 
