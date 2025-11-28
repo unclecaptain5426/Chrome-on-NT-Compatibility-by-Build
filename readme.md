@@ -1,4 +1,4 @@
-COMPATIBILITY
+# COMPATIBILITY
 
 Chrome 5.0.375.127 Stable - last unofficial version for Windows 2000 Beta 3 Build 1964 - Windows Whistler Beta 1 Build 2296
 
@@ -22,7 +22,7 @@ Chrome 50 on Windows XP/2003 without One-Core API is not impossible but it can b
 
 Chrome 51.0.26?? Dev / Chrome 50.0.2664.102 - is the last unofficial version to fully run on Windows Vista without Extended Kernel and Windows 2000 with Extended Kernel.
 
-FREQUENTLY ASKED QUESTIONS
+# FREQUENTLY ASKED QUESTIONS
 
 1) Why Chrome 12.0.730+ Dev hardcoded GetNativeSystemInfo?
 
@@ -49,25 +49,25 @@ winhttp.dll must be from at least Windows Server 2003 RTM/Windows XP SP2/Windows
 5) Why wrappers needed on Chrome versions after 0.2.149.30 for Windows 2000?
 
 
-BUGS
+# BUGS
 Google Chrome 6 - 32 is not known to work on Windows 2000 Beta 3 Build 1964 - Windows Whistler Beta 1 Build 2296, due to enforced ADVAPI32/NTDLL functions after 5.0.375.127.
 
 Google Chrome 33 - 49 is not known to work very well on Windows Whistler Beta 1 Build 2410 - Windows Whistler Pre-RC 1 Build 2475 when using kernelxp.dll wrappers by BWC (because it starts but freezes within seconds), but when using roytam1's kernelxp.dll wrappers and attempted to replace GetNativeSystemInfo with something else on kernelxp.dll, it triggers an c0000094 exception. On the other hand, when using Chrome 33 - 49 on Windows Whistler RC 1 Build 2481 - Windows Whistler RC 1 Build 2509, downloading executable files leads to Chrome crashing (because the NTDLL.DLL from XP SP1 does not work on Windows XP builds prior to RC 2 build 2517).
 
-SCREENSHOTS
+# SCREENSHOTS
 
-Notes
+# NOTES
 
 Make sure you have 7-Zip & CFF Explorer installed.
 
 If you are on a non-XP SP2 system... make sure you use --no-sandbox command line.
 
-DISCLAIMER
+# DISCLAIMER
 
 This guide is an unofficial, community-made compatibility guide. It is NOT affiliated with, endorsed, or supported by Google or Microsoft. All product names, trademarks, and copyrights belong to their respective owners. This repository does not contain any proprietary Google binaries. It only documents compatibility behavior on legacy Windows systems.
 
 All binaries must be obtained by the user from official sources only. This guide does not provide or link to any downloads.
 
-WORD OF CAUTION
+# WORD OF CAUTION
 
 Please do not use an older version of Google Chrome as a daily driver. It must be for testing purposes only.
