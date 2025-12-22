@@ -79,6 +79,7 @@ Please do not use an older version of Google Chrome as a daily driver. It must b
 
 # REFERENCES
 * https://claraincorporated.blogspot.com/2025/12/windows-xp-rtm-in-2026-unofficial-guide.html
+
   Windows XP RTM in 2026: Unofficial Guide
 
 
