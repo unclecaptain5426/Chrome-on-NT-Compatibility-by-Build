@@ -78,4 +78,4 @@ All binaries must be obtained by the user from official sources only. This guide
 Please do not use an older version of Google Chrome as a daily driver. It must be for testing purposes only.
 
 # REFERENCES
-* [[https://claraincorporated.blogspot.com/2025/12/windows-xp-rtm-in-2026-unofficial-guide.html|Windows XP RTM in 2026: Unofficial Guide]]
+* [[Windows XP RTM in 2026: Unofficial Guide|https://claraincorporated.blogspot.com/2025/12/windows-xp-rtm-in-2026-unofficial-guide.html]]
