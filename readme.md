@@ -86,9 +86,9 @@ Please do not use an older version of Google Chrome as a daily driver. It must b
 
 * Windows NT 4.0 with Extended Kernel
 
-* Windows NT 5.0 Pre-Alpha Build 1515 - Windows 2000 Beta 3 Build 1946
+* Windows 2000 Beta 3 Build 1946 and older for Chrome 0.2 and newer
 
 * Windows Whistler Beta 1 Build 2296 and older for Chrome 6 and newer
 
-* Windows XP RC 1 Build 2475 and older for Chrome 33 and newer
+* Windows XP RC 1 Build 2475 and older for Chrome 12 and newer
 
