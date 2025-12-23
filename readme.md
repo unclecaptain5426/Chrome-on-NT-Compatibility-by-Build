@@ -1,6 +1,6 @@
 # COMPATIBILITY
 
-Chrome 5.0.375.17 Dev / Chrome 4.1.249.1064 Stable - last unofficial version for Windows Longhorn build 4093 - ????
+Chrome 5.0.375.17 Dev / Chrome 4.1.249.1064 Stable – last unofficial versions observed to run on Windows Longhorn builds 4093 through unknown build of Windows Vista, under experimental conditions.
 
 Chrome 5.0.375.127 Stable - last unofficial version for Windows 2000 Beta 3 Build 1964 - Windows Whistler Beta 1 Build 2296
 
