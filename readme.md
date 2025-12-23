@@ -1,5 +1,7 @@
 # COMPATIBILITY
 
+Chrome 5.0.375.17 Dev / Chrome 4.1.249.1064 Stable - last unofficial version for Windows Longhorn build 4093 - ????
+
 Chrome 5.0.375.127 Stable - last unofficial version for Windows 2000 Beta 3 Build 1964 - Windows Whistler Beta 1 Build 2296
 
 Chrome 33.0.1707.0 Dev / 32.0.1700.107 Stable - last unofficial version for Windows 2000 SP4 without Extended Kernel by using:
@@ -20,7 +22,7 @@ Chrome 12.0.729 Dev / Chrome 11.0.696.77 Stable - is the last unofficial version
 
 Since chrome_elf.dll was added on Chrome 33.0.1712.2 Dev, Chrome 33.0.1750.xxx-49.0.2623.xxx is unofficially possible with using bwc's wrappers, but it freezes within seconds.
 
-Chrome 49.0.2623.112 (and 34.0.1847.137 is the last for no SSE2, ofc) - is the last unofficial version to work on Windows XP build 2481 with kernelxp.dll by roytam1 (but Windows XP build 2517 (5.1.2517.main.010713-1717) is recommended unofficially especially to replace system core files with the one from XP SP1 in system32 to improve stability) - Windows Longhorn build 40xx or Vista build 5xxx.
+Chrome 49.0.2623.112 (and 34.0.1847.137 for no SSE2) is the last Chrome version observed by the community to run on Windows XP build 2481 (using compatibility wrappers), and on certain Windows Longhorn builds up to 4088 under experimental conditions.
 
 Chrome 50 on Windows XP/2003 without One-Core API is not impossible but it can be unstable.
 
