@@ -82,4 +82,13 @@ Please do not use an older version of Google Chrome as a daily driver. It must b
 
   Windows XP RTM in 2026: Unofficial Guide
 
+# FUTURE SUPPORT FOR
+
+* Windows NT 4.0 with Extended Kernel
+
+* Windows NT 5.0 Pre-Alpha Build 1515 - Windows 2000 Beta 3 Build 1946
+
+* Windows Whistler Beta 1 Build 2296 and older for Chrome 6 and newer
+
+* Windows XP RC 1 Build 2475 and older for Chrome 33 and newer
 
