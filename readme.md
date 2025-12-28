@@ -58,6 +58,8 @@ winhttp.dll must be from at least Windows Server 2003 RTM/Windows XP SP2/Windows
 # BUGS
 Google Chrome 6 - 32 is not known to work on Windows 2000 Beta 3 Build 1964 - Windows Whistler Beta 1 Build 2296, due to enforced ADVAPI32/NTDLL functions after 5.0.375.127.
 
+Google Chrome 24 - 49 will not work (but 23 will still partially work, but the address is broken) on Windows XP RTM if Internet Explorer 7 is installed, even if you port a newer version of imm32.dll from XP SP1 or newer to Chrome-bin and/or the version folder.
+
 Firstly, Google Chrome 33 - 49 is not known to work very well on Windows Whistler Beta 1 Build 2410 - Windows Whistler Pre-RC 1 Build 2475 when using kernelxp.dll wrappers by BWC (because it starts but freezes within seconds). Secondly, If you use roytam1's kernelxp.dll wrappers and attempted to replace GetNativeSystemInfo (since it was hardcoded on Chrome 12.0.730 Dev) with something else on kernelxp.dll on Windows Whistler Beta 1 Build 2410 - Windows Whistler Pre-RC 1 Build 2475, it triggers an c0000094 exception. On the other hand, when using Chrome 33 - 49 on Windows Whistler RC 1 Build 2481 - Windows Whistler RC 1 Build 2509, downloading executable files leads to Chrome crashing (because the NTDLL.DLL from XP SP1 does not work on Windows XP builds prior to RC 2 build 2517).
 
 Windows Longhorn builds 4093- has limited Chrome versions to 4.1.249.1064 Stable and 5.0.375.17 Dev. Chrome 5.0.375.23 Dev and up will not run on Longhorn 4093 and on later certain versions due to the debug.log saying "A device attached to the system is not functioning".
