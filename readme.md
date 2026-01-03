@@ -53,7 +53,7 @@ Note: winhttp.dll must be inserted to system32 or the chrome folder for Windows 
 winhttp.dll must be from at least Windows Server 2003 RTM/Windows XP SP2/Windows 2000 SP4 UR1.
 
 5) Why wrappers needed on Chrome versions after 0.2.149.30 for Windows 2000?
-
+Because of the hardcoded SystemFunction036/RtlGenRandom functions on ADVAPI32.DLL, and if attempted to load Chrome 0.3 without wrappers on Windows 2000, the program will crash with "Whoa! Google Chrome has crashed. Restart now?"
 
 # BUGS
 Google Chrome 6 - 32 is not known to work on Windows 2000 Beta 3 Build 1964 - Windows Whistler Beta 1 Build 2296, due to an hardcoded SystemFunction036 on ADVAPI32.DLL.
