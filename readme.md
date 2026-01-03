@@ -56,7 +56,7 @@ winhttp.dll must be from at least Windows Server 2003 RTM/Windows XP SP2/Windows
 
 
 # BUGS
-Google Chrome 6 - 32 is not known to work on Windows 2000 Beta 3 Build 1964 - Windows Whistler Beta 1 Build 2296, due to enforced ADVAPI32/NTDLL functions after 5.0.375.127.
+Google Chrome 6 - 32 is not known to work on Windows 2000 Beta 3 Build 1964 - Windows Whistler Beta 1 Build 2296, due to an hardcoded SystemFunction036 on ADVAPI32.DLL.
 
 Google Chrome 24 - 49 will not work (but 23 will still partially work, but the address is broken) on Windows XP RTM if Internet Explorer 7 is installed, even if you port a newer version of imm32.dll from XP SP1 or newer to Chrome-bin and/or the version folder.
 
@@ -86,13 +86,14 @@ Please do not use an older version of Google Chrome as a daily driver. It must b
 
   Windows XP RTM in 2026: Unofficial Guide
 
-# FUTURE SUPPORT FOR
+# FUTURE UNOFFICIAL SUPPORT FOR
 
 * Windows NT 4.0 with Extended Kernel
 
-* Windows 2000 Beta 3 Build 1946 and older for Chrome 0.2 and newer
+* Chrome 0.2 and newer for Windows 2000 Beta 3 Build 1946 and older 
 
-* Windows Whistler Beta 1 Build 2296 and older for Chrome 6 and newer
+* Chrome 6 and newer for Windows Whistler Beta 1 Build 2296 and older
 
-* Windows XP RC 1 Build 2475 and older for Chrome 12 and newer
+* Chrome 12 and newer for Windows XP RC 1 Build 2475 and older 
 
+* Chrome 33 and newer for Windows 2000 without Extended Kernel
